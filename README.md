@@ -43,7 +43,7 @@
 
 ```bash
 # 克隆项目
-git clone https://ckk.photo8.site/Photo8/Modern-Password-Generator.git
+git clone https://github.com/cansnow123/Modern-Password-Generator.git
 
 # 进入项目目录
 cd modern-password-generator
@@ -146,9 +146,6 @@ docker run -d -p 80:80 password-generator
   - [x] 添加算法选择器和详细说明
   - [x] 集成算法安全性评级系统
    - [x] 修复算法说明组件中安全建议显示问题
- - [x] 添加密码强度详细分析
-    - [x] 移除旧的简单密码强度指示器，避免功能重复
-- [x] 添加.gitignore文件，排除node_modules等不必要的文件
 - [x] 修复生产构建资源路径问题，配置相对路径避免部署错误
 - [x] 支持多语言
 - [x] 修复多语言使用说明显示问题（彻底解决数组渲染问题）✅
